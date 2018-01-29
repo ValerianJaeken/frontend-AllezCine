@@ -1,9 +1,10 @@
-<<<<<<< HEAD
+
+.shop-movies .container {
+  width: 100%;
+  margin: 0; }
+.shop-movies .card-block {
+  background-color: black;
+  color: red; }
 .red_bg{
 	background-color: #fe4141;
 }
-=======
-
-
-/*# sourceMappingURL=style.css.map */
->>>>>>> prince
