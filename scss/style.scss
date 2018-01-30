@@ -5,32 +5,39 @@
 }
 // Featured movies section
 
-.featured-movies {
+.featured {
+  .header{
+    padding: 25px;
+    .red-box{
+      margin-left: 75px;
+margin-right: 10px;
+border: 3px solid red;
+    }
+  }
   .container {
     .card {
-      .navbar {
+      border: none;
+      .navbar, .card-header {
+        margin: 15px;
         display: inline-block;
         border-bottom-right-radius: 200px;
         border-top-right-radius: 200px;
         display: inline-block;
         width: auto;
+        background-color: white;
 
-      
-        #navbarNav {
+        #navbarNavMovies, #navbarNavSeries {
           float: right;
 
         .navbar-nav {
           white-space: nowrap;
           display: table-footer-group;
 
-
           .nav-item {
             display: inline-block;
             margin: 8px;
           }
         }
-
-
         }
       }
     }

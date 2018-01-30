@@ -1,17 +1,27 @@
-.featured-movies .container .card .navbar {
-  display: inline-block;
-  border-bottom-right-radius: 200px;
-  border-top-right-radius: 200px;
-  display: inline-block;
-  width: auto; }
-  .featured-movies .container .card .navbar #navbarNav {
-    float: right; }
-    .featured-movies .container .card .navbar #navbarNav .navbar-nav {
-      white-space: nowrap;
-      display: table-footer-group; }
-      .featured-movies .container .card .navbar #navbarNav .navbar-nav .nav-item {
-        display: inline-block;
-        margin: 8px; }
+.featured .header {
+  padding: 25px; }
+  .featured .header .red-box {
+    margin-left: 75px;
+    margin-right: 10px;
+    border: 3px solid red; }
+.featured .container .card {
+  border: none; }
+  .featured .container .card .navbar, .featured .container .card .card-header {
+    margin: 15px;
+    display: inline-block;
+    border-bottom-right-radius: 200px;
+    border-top-right-radius: 200px;
+    display: inline-block;
+    width: auto;
+    background-color: white; }
+    .featured .container .card .navbar #navbarNavMovies, .featured .container .card .navbar #navbarNavSeries, .featured .container .card .card-header #navbarNavMovies, .featured .container .card .card-header #navbarNavSeries {
+      float: right; }
+      .featured .container .card .navbar #navbarNavMovies .navbar-nav, .featured .container .card .navbar #navbarNavSeries .navbar-nav, .featured .container .card .card-header #navbarNavMovies .navbar-nav, .featured .container .card .card-header #navbarNavSeries .navbar-nav {
+        white-space: nowrap;
+        display: table-footer-group; }
+        .featured .container .card .navbar #navbarNavMovies .navbar-nav .nav-item, .featured .container .card .navbar #navbarNavSeries .navbar-nav .nav-item, .featured .container .card .card-header #navbarNavMovies .navbar-nav .nav-item, .featured .container .card .card-header #navbarNavSeries .navbar-nav .nav-item {
+          display: inline-block;
+          margin: 8px; }
 
 .shop-movies .container {
   width: 100%;
