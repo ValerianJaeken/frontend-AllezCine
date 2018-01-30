@@ -1,13 +1,66 @@
-.shop-movies{
-  .container{
+// Promotion section
+
+.promotion {
+  .promotion-stream {}
+}
+// Featured movies section
+
+.featured {
+  .header{
+    padding: 25px;
+    .red-box{
+      margin-left: 75px;
+margin-right: 10px;
+border: 3px solid red;
+    }
+  }
+  .container {
+    .card {
+      border: none;
+      .navbar, .card-header {
+        margin: 15px;
+        display: inline-block;
+        border-bottom-right-radius: 200px;
+        border-top-right-radius: 200px;
+        display: inline-block;
+        width: auto;
+        background-color: white;
+
+        #navbarNavMovies, #navbarNavSeries {
+          float: right;
+
+        .navbar-nav {
+          white-space: nowrap;
+          display: table-footer-group;
+
+          .nav-item {
+            display: inline-block;
+            margin: 8px;
+          }
+        }
+        }
+      }
+    }
+  }
+}
+// Shop movie section
+
+.shop-movies {
+  .container {
     width: 100%;
     margin: 0;
-
-
   }
-.card-block{
-  background-color: black;
-  color: red;
-}
 
+  .preview-video {
+    background-color: black;
+    color: red;
+
+    .card-block {
+      .row {
+        .coma {
+          padding: 0;
+        }
+      }
+    }
+  }
 }
