@@ -1,8 +1,25 @@
+.featured-movies .container .card .navbar {
+  display: inline-block;
+  border-bottom-right-radius: 200px;
+  border-top-right-radius: 200px;
+  display: inline-block;
+  width: auto; }
+  .featured-movies .container .card .navbar #navbarNav {
+    float: right; }
+    .featured-movies .container .card .navbar #navbarNav .navbar-nav {
+      white-space: nowrap;
+      display: table-footer-group; }
+      .featured-movies .container .card .navbar #navbarNav .navbar-nav .nav-item {
+        display: inline-block;
+        margin: 8px; }
+
 .shop-movies .container {
   width: 100%;
   margin: 0; }
-.shop-movies .card-block {
+.shop-movies .preview-video {
   background-color: black;
   color: red; }
+  .shop-movies .preview-video .card-block .row .coma {
+    padding: 0; }
 
 /*# sourceMappingURL=style.css.map */
