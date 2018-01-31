@@ -1,5 +1,37 @@
+.featured .header {
+  padding: 25px; }
+  .featured .header .red-box {
+    margin-left: 75px;
+    margin-right: 10px;
+    border: 3px solid red; }
+.featured .container .card {
+  border: none; }
+  .featured .container .card .navbar, .featured .container .card .card-header {
+    margin: 15px;
+    display: inline-block;
+    border-bottom-right-radius: 200px;
+    border-top-right-radius: 200px;
+    display: inline-block;
+    width: auto;
+    background-color: white; }
+    .featured .container .card .navbar #navbarNavMovies, .featured .container .card .navbar #navbarNavSeries, .featured .container .card .card-header #navbarNavMovies, .featured .container .card .card-header #navbarNavSeries {
+      float: right; }
+      .featured .container .card .navbar #navbarNavMovies .navbar-nav, .featured .container .card .navbar #navbarNavSeries .navbar-nav, .featured .container .card .card-header #navbarNavMovies .navbar-nav, .featured .container .card .card-header #navbarNavSeries .navbar-nav {
+        white-space: nowrap;
+        display: table-footer-group; }
+        .featured .container .card .navbar #navbarNavMovies .navbar-nav .nav-item, .featured .container .card .navbar #navbarNavSeries .navbar-nav .nav-item, .featured .container .card .card-header #navbarNavMovies .navbar-nav .nav-item, .featured .container .card .card-header #navbarNavSeries .navbar-nav .nav-item {
+          display: inline-block;
+          margin: 8px; }
+
+.shop-movies .container {
+  width: 100%;
+  margin: 0; }
+.shop-movies .preview-video {
+  background-color: black;
+  color: red; }
 .red_bg{
 	background-color: #fe4141;
+<<<<<<< HEAD
 	padding: 15px;
 }
 
@@ -66,3 +98,10 @@ width: 25%;
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
     }
+=======
+}
+  .shop-movies .preview-video .card-block .row .coma {
+    padding: 0; }
+
+/*# sourceMappingURL=style.css.map */
+>>>>>>> development
