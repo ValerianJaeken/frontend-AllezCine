@@ -16,35 +16,39 @@
 <body>
   <!-- header-->
   <div class="jumbotron" id="header">
-   <div class="row">
-       <div class="col-4 row">
-           <h2 class="red">allez</h2>
-           <h2 class="white">cine!</h2>
-       </div>
-         <div class="col-4 row">
-            <h6 class="red">home</h6>
-            <button type="button">GENRE</button>
-       </div>
+    <div class="row">
+      <div class="col-4 row">
+        <h2 class="red">allez</h2>
+        <h2 class="white">cine!</h2>
+      </div>
+      <div class="col-4 row">
+        <h6 class="red">home</h6>
+        <button type="button">GENRE</button>
+      </div>
 
-       <div class="col-2">
-         Contact
-       </div>
-       <div class="col-2">
-         search bar
-       </div>
-     </div>
-     <h1 id="header_title">latest online movies</h1>
-     <h4 id="header_subtitle">in space no one can hear you scream</h4>
-     <div class="button_center">
-       <button type="button">Watch trailer</button>
-     </div>
+      <div class="col-2">
+        Contact
+      </div>
+      <nav class="navbar navbar-light bg-light justify-content-between">
+        <a class="navbar-brand">Contact</a>
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </nav>
+    </div>
+    <h1 id="header_title">latest online movies</h1>
+    <h4 id="header_subtitle">in space no one can hear you scream</h4>
+    <div class="button_center">
+      <button type="button">Watch trailer</button>
+    </div>
   </div>
   <div class="red_bg">
-   <img src="" alt="">
-   (+000) 009 455 4088
-   <button class="black_button" type="button">Login</button>
-   <button class="black_button" type="button">REGISTER</button>
-        </div>
+    <img src="" alt=""> (+000) 009 455 4088
+    <button class="black_button" type="button">Login</button>
+    <button class="black_button" type="button">REGISTER</button>
+  </div>
+
 
   <!-- Promotion of hot movies -->
   <section class="container-fluid promotion">
@@ -452,7 +456,7 @@
       </div>
     </div>
     <div class="d-flex justify-content-center">
-      <a href="#!" class="btn btn-danger btn-lg active center-block" role="button" aria-pressed="true">MORE MOVIES</a>
+      <button type="button" id="show" aria-pressed="true">MORE MOVIES</button>
     </div>
   </section>
   <!-- Featured Series -->
