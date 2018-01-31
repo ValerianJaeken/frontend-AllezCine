@@ -1,9 +1,28 @@
 .red_bg{
 	background-color: #fe4141;
+	padding: 15px;
 }
 
+button{
+	background-color: #fe4141;
+	color: white;
+}
+.black_button{
+    background-color: black;
+	color: white;
+	border: none;
+}
+/*header*/
+#header{
+	padding-top: 15px;
+	padding-bottom: 15%;
+	margin: 0;
+	text-transform: uppercase;
+	color: white;
+}
 #header_title{
 text-align:center;
+margin-top: 15%;
 }
 
 #header_subtitle{
@@ -11,13 +30,13 @@ text-align:center;
 }
 
 .button_center{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	background: green;
-	
+	text-align: center;
+}
+.red{
+	color: #fe4141;
 }
 
+/*contact us*/
 .grid-container{
 	display: grid;
 	margin: 30px;
@@ -36,3 +55,14 @@ grid-row:3;
 grid-row: 4;
 width: 25%;
 }
+
+.modal {
+    display: none; /* Hidden by default */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    }
