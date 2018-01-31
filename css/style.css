@@ -31,7 +31,6 @@
   color: red; }
 .red_bg{
 	background-color: #fe4141;
-<<<<<<< HEAD
 	padding: 15px;
 }
 
@@ -98,10 +97,7 @@ width: 25%;
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
     }
-=======
+
 }
   .shop-movies .preview-video .card-block .row .coma {
     padding: 0; }
-
-/*# sourceMappingURL=style.css.map */
->>>>>>> development
