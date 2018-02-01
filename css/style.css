@@ -104,8 +104,8 @@ width: 25%;
     display: none; /* Hidden by default */
     z-index: 1; /* Sit on top */
     padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
+    padding-left: 10%;
+    padding-right: 10%;
     width: 100%; /* Full width */
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
