@@ -23,6 +23,13 @@
         .featured .container .card .navbar #navbarNavMovies .navbar-nav .nav-item, .featured .container .card .navbar #navbarNavSeries .navbar-nav .nav-item, .featured .container .card .card-header #navbarNavMovies .navbar-nav .nav-item, .featured .container .card .card-header #navbarNavSeries .navbar-nav .nav-item {
           display: inline-block;
           margin: 8px; }
+.promotion .container .card{
+  margin-top: 10px;
+}
+.promotion .container .card .promotion-stream{
+  padding: 25px;
+
+}
 
 .shop-movies .container {
   width: 100%;
@@ -93,7 +100,11 @@ button {
   padding-bottom:10%;
   margin: 0;
   text-transform: uppercase;
-  color: white; 
+
+  color: white;
+=======
+  color: white;
+
   background: url("../images/ju4Eh56.jpg"), linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
   background-blend-mode: overlay;
   background-size: cover;
@@ -169,14 +180,21 @@ button {
   height: 80px; }
 
 .footerThumbnail {
-  display: flex; }
-
+  display: flex;
+  margin-top:10px;
+}
+.footerCancer h1{
+  color:white;
+}
 .footerThumbnail p {
-  margin-top: auto; }
+  margin-top: auto;
+  margin-left:5px;
+ }
 
 .footerThumbnail img {
   width: 100px;
-  height: 50px; }
+  height: 50px;
+}
 
 .footerContainer {
   display: flex;
@@ -196,11 +214,11 @@ footer hr {
   border: solid gray 1px; }
 
 #orange {
-  color: orange; }
+  color: #fe4141; }
 
 .footerbox {
   width: auto;
-  max-width: 200px; }
+  max-width: 300px; }
 
 .footerboxReview {
   width: auto;
@@ -215,9 +233,10 @@ footer h3 {
   text-align: center; }
 
 #footerSubscribe {
-  background-color: orange;
+  background-color: #fe4141;
   margin-left: 20px;
-  border: solid 1px orange; }
+  border: solid 1px #fe4141;
+}
 
 .footerHr {
   background-color: black;
@@ -232,16 +251,37 @@ footer h3 {
   margin-top:10px;
 }
 .footerContact{
-  height:200px;
+  height:150px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
 }
 .footerFonts{
   color:white;
+  display:flex;
+}
+.footerAh{
+  width:100%;
+}
+
+.footerEbola{
+  width:40px;
+  height:30px;
+  border:gray solid 2px;
+  margin-left:3px;
+  margin-right:3px;
   text-align: center;
-
 }
 
-svg{
-  margin: 10px;
+.footerUp{
+  color:white;
+  width:50px;
+  height:50px;
+  border: solid #fe4141 2px;
+  border-radius: 100%;
+  text-align: center;
+  padding-top:6px;
+  margin-left:90%;
+  margin-top:-3%;
+  cursor: pointer;
 }
-
-/*# sourceMappingURL=style.css.map */
