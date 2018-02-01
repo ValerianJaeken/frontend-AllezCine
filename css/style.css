@@ -158,14 +158,21 @@ button {
   height: 80px; }
 
 .footerThumbnail {
-  display: flex; }
-
+  display: flex;
+  margin-top:10px;
+}
+.footerCancer h1{
+  color:white;
+}
 .footerThumbnail p {
-  margin-top: auto; }
+  margin-top: auto;
+  margin-left:5px;
+ }
 
 .footerThumbnail img {
   width: 100px;
-  height: 50px; }
+  height: 50px;
+}
 
 .footerContainer {
   display: flex;
@@ -185,11 +192,11 @@ footer hr {
   border: solid gray 1px; }
 
 #orange {
-  color: orange; }
+  color: #fe4141; }
 
 .footerbox {
   width: auto;
-  max-width: 200px; }
+  max-width: 300px; }
 
 .footerboxReview {
   width: auto;
@@ -204,9 +211,10 @@ footer h3 {
   text-align: center; }
 
 #footerSubscribe {
-  background-color: orange;
+  background-color: #fe4141;
   margin-left: 20px;
-  border: solid 1px orange; }
+  border: solid 1px #fe4141;
+}
 
 .footerHr {
   background-color: black;
@@ -247,10 +255,11 @@ footer h3 {
   color:white;
   width:50px;
   height:50px;
-  border: solid orange 2px;
+  border: solid #fe4141 2px;
   border-radius: 100%;
   text-align: center;
   padding-top:6px;
   margin-left:90%;
   margin-top:-3%;
+  cursor: pointer;
 }
