@@ -78,15 +78,27 @@ button {
   border: none; }
 
 /*header*/
+.carousel-indicators{
+	position: absolute;
+    vertical-align:bottom;
+}
+#myCarousel{
+	height: 600px;
+}
+.content{
+	vertical-align: center;
+}
 #header {
   padding-top: 20px;
-  padding-bottom: 20%;
+  padding-bottom:10%;
   margin: 0;
   text-transform: uppercase;
   color: white; 
   background: url("../images/ju4Eh56.jpg"), linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
   background-blend-mode: overlay;
   background-size: cover;
+  height: 800px;
+  background-position: center;
   }
 
 #header_title {
@@ -103,6 +115,9 @@ button {
   color: #fe4141; }
 
 /*contact us*/
+#contact_title{
+	margin-bottom: 200px;
+}
 .grid-container {
   display: grid;
   margin: 30px;
