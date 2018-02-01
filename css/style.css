@@ -79,12 +79,15 @@ button {
 
 /*header*/
 #header {
-  padding-top: 15px;
-  padding-bottom: 15%;
+  padding-top: 20px;
+  padding-bottom: 20%;
   margin: 0;
   text-transform: uppercase;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.5); }
+  color: white; 
+  background: url("../images/ju4Eh56.jpg"), linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
+  background-blend-mode: overlay;
+  background-size: cover;
+  }
 
 #header_title {
   text-align: center;
