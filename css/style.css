@@ -83,7 +83,11 @@ button {
   padding-bottom: 20%;
   margin: 0;
   text-transform: uppercase;
+
   color: white;
+=======
+  color: white;
+
   background: url("../images/ju4Eh56.jpg"), linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
   background-blend-mode: overlay;
   background-size: cover;
@@ -249,8 +253,4 @@ footer h3 {
   padding-top:6px;
   margin-left:90%;
   margin-top:-3%;
-}
-=======
-svg{
-  margin: 10px;
 }
