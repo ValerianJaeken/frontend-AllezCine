@@ -203,7 +203,6 @@ footer h3 {
 
 .footerHr {
   background-color: black;
-<<<<<<< HEAD
   width:auto;
   height:75px;
   border-top:gray 1px solid;
@@ -223,14 +222,8 @@ footer h3 {
 
 }
 
-.footerFonts i{
-  border:solid white 1px;
+svg{
+  margin: 10px;
 }
-=======
-  width: auto;
-  height: 200px;
-  border-top: gray 1px solid;
-  border-bottom: gray 1px solid; }
 
 /*# sourceMappingURL=style.css.map */
->>>>>>> ef8c25ae2ccc204c46563754148da20a3866449d
