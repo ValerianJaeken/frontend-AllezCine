@@ -14,3 +14,7 @@ $(".modal").css("display","none")
 
 
 });
+
+$(".footerUp").click(function(){
+  $('html, body').animate({ scrollTop: 0 });
+})
