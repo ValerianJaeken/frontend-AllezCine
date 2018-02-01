@@ -86,7 +86,7 @@ text-align:center;
 	margin: 30px;
 	grid-template-columns: 50% 50%;
 	grid-template-rows: 20% 20%;
-	grid-column-gap: 10px; 
+	grid-column-gap: 10px;
 	grid-row-gap: 15px;
 }
 
@@ -113,7 +113,93 @@ width: 25%;
 
 .send_button{
 background-color: #fe4141;
-	color: white;	
+	color: white;
 }
-  
 
+/* =============================== FOOTER SECTION ===================================== */
+.footerSubscribe{
+  width:400px;
+  margin:auto;
+  padding-top:6%;
+  height:250px;
+}
+.footerimgbox {
+  display: flex;
+
+}
+
+.footerimg img {
+  width: auto;
+  height: 80px;
+}
+
+.footerThumbnail {
+  display: flex;
+}
+
+.footerThumbnail p {
+  margin-top: auto;
+}
+
+.footerThumbnail img {
+  width: 100px;
+  height: 50px;
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+footer {
+  background-color: black;
+}
+
+footer h4,
+h1 {
+  color: white;
+}
+
+footer p {
+  color: gray;
+}
+
+footer hr {
+  border: solid gray 1px;
+}
+
+#orange {
+  color: orange;
+}
+
+.footerbox {
+  width:auto;
+  max-width: 200px;
+}
+.footerboxReview{
+  width:auto;
+  max-width: 350px;
+}
+
+.footerbox h1 {
+  margin: 0;
+  padding: 0;
+  line-height: 74%;
+}
+
+footer h3 {
+  text-align: center;
+}
+#footerSubscribe{
+  background-color: orange;
+  margin-left: 20px;
+  border:solid 1px orange;
+}
+.footerHr{
+  background-color: black;
+  width:auto;
+  height:200px;
+  border-top:gray 1px solid;
+  border-bottom:gray 1px solid;
+}
