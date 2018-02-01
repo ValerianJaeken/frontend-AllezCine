@@ -23,6 +23,13 @@
         .featured .container .card .navbar #navbarNavMovies .navbar-nav .nav-item, .featured .container .card .navbar #navbarNavSeries .navbar-nav .nav-item, .featured .container .card .card-header #navbarNavMovies .navbar-nav .nav-item, .featured .container .card .card-header #navbarNavSeries .navbar-nav .nav-item {
           display: inline-block;
           margin: 8px; }
+.promotion .container .card{
+  margin-top: 10px;
+}
+.promotion .container .card .promotion-stream{
+  padding: 25px;
+
+}
 
 .shop-movies .container {
   width: 100%;
