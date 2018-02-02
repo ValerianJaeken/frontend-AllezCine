@@ -125,6 +125,13 @@ button{
 
 .button_center {
   text-align: center; }
+#header_subtitle {
+  text-align: center; }
+
+.button_right {
+  text-align: right; }
+.button_left {
+  text-align: left; }
 
 .red {
   color: #fe4141; }
