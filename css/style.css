@@ -175,6 +175,28 @@ button {
   background-color: #fe4141;
   color: white; }
 
+  .movieCancer{
+    width:500px;
+    height:550px;
+    color:white;
+  }
+  .cancerTrailer{
+    margin:auto;
+    padding-top:15%;
+  }
+  .cancerTitle{
+    margin-left:30%;
+    margin-top:3%;
+  }
+  .cancerDate{
+    margin-left:30%;
+    margin-top:3%;
+  }
+  .cancerGenre{
+    margin-left:30%;
+    margin-top:3%
+  }
+
 /* =============================== FOOTER SECTION ===================================== */
 .footerSubscribe {
   width: 400px;
