@@ -85,10 +85,6 @@ button{
   padding: 15px;
   color: white; }
 
-button {
-  background-color: #fe4141;
-  color: white; }
-
 .black_button {
   background-color: black;
   color: white;
@@ -100,26 +96,23 @@ button {
     vertical-align:bottom;
 }
 #myCarousel{
-	height: 600px;
+	height: 800px;
 }
 .content{
 	vertical-align: center;
 }
 #header {
-  padding-top: 20px;
-  padding-bottom:10%;
-  margin: 0;
+	padding: 0;
   text-transform: uppercase;
-
   color: white;
-=======
-  color: white;
-
   background: url("../images/ju4Eh56.jpg"), linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
   background-blend-mode: overlay;
   background-size: cover;
-  height: 800px;
   background-position: center;
+  }
+  #nav_bar{
+  	padding: 15px;
+  	padding-left: 40px;
   }
 
 #header_title {
