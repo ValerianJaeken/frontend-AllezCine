@@ -105,7 +105,6 @@ button{
 	padding: 0;
   text-transform: uppercase;
   color: white;
-  background: url("../images/ju4Eh56.jpg"), linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
   background-blend-mode: overlay;
   background-size: cover;
   background-position: center;
@@ -114,7 +113,9 @@ button{
   	padding: 15px;
   	padding-left: 40px;
   }
-
+#carousel-sliders{
+  bottom: -100px;
+}
 #header_title {
   text-align: center;
   margin-top: 15%; }
