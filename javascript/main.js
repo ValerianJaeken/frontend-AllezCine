@@ -29,6 +29,5 @@ $(".cancer").click(function(){
   $(".movieCancer").append("<div class=cancerTitle>Title : " + title + "</div>");
   $(".movieCancer").append("<div class=cancerDate>Release date : "+ date +"</div>");
   $(".movieCancer").append("<div class=cancerGenre>Genre : "+ genre +"</div>");
-  console.log(date,genre);
 
 })
