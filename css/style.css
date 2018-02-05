@@ -183,6 +183,9 @@ button{
   background-color: #fe4141;
   color: white; }
 
+
+/* ================= MOVIE BOX CLASSES ============== */
+
   .movieCancer{
     width:500px;
     height:550px;
@@ -191,6 +194,10 @@ button{
   .cancerTrailer{
     margin:auto;
     padding-top:15%;
+  }
+  .cancerTrailer iframe{
+    margin-left:15%;
+    width:auto;
   }
   .cancerTitle{
     margin-left:30%;
@@ -202,7 +209,7 @@ button{
   }
   .cancerGenre{
     margin-left:30%;
-    margin-top:3%
+    margin-top:3%;
   }
 
 /* =============================== FOOTER SECTION ===================================== */
