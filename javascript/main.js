@@ -1,6 +1,6 @@
-$(document).ready(function(){
+$(document).ready(function(){});
   //header
-$("#header_title").text("latest" "" "" "" "")
+// $("#header_title").text("latest" "" "" "" "")
 
 
 // modal of contact us
@@ -15,7 +15,6 @@ $(".modal").css("display","none")
 })
 
 
-});
 
 $(".footerUp").click(function(){
   $('html, body').animate({ scrollTop: 0 });
