@@ -1,7 +1,12 @@
+
 // $(document).ready(function(){
 //   //header
 // $("#header_title").text("latest" "" "" "" "")
 // }
+$(document).ready(function(){
+  //header
+//$("#header_title").text("latest" "" "" "" "");
+
 
 // modal of contact us
 var modal = $("contactForm");
