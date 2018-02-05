@@ -32,7 +32,8 @@
 .jumbotron .row .form-inline .search-bar .form-control{
   background-color: rgba(0, 0, 0, 0.7);
   width: 350px;
-  border: none;
+  border: 10px;
+  border-color: darkgrey;
   border-radius: 1.25rem;
 }
 .jumbotron .row .form-inline  .input-group-addon{
@@ -72,7 +73,6 @@ button{
 #genre_button{
   height: 35px;
   padding: 3px;
-  margin-left: 40px;
 }
 .black_button{
     background-color: black;
