@@ -1,6 +1,6 @@
 $(document).ready(function(){
   //header
-$("#header_title").text("latest" "" "" "" "")
+//$("#header_title").text("latest" "" "" "" "");
 
 
 // modal of contact us
@@ -33,3 +33,4 @@ $(".cancer").click(function(){
   $(".movieCancer").append("<div class=cancerGenre>Genre : "+ genre +"</div>");
 
 })
+
