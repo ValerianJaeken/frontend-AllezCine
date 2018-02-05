@@ -1,4 +1,6 @@
 $(document).ready(function(){
+  //header
+$("#header_title").text("latest" "" "" "" "")
 
 
 // modal of contact us
