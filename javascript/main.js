@@ -1,17 +1,8 @@
-<<<<<<< HEAD
-$(document).ready(function(){});
-  //header
-// $("#header_title").text("latest" "" "" "" "")
-=======
+
 
 // $(document).ready(function(){
-//   //header
-// $("#header_title").text("latest" "" "" "" "")
-// }
-$(document).ready(function(){
   //header
 //$("#header_title").text("latest" "" "" "" "");
->>>>>>> 86e62e09bb3a75120a9aded134ba535e1d46219f
 
 
 // modal of contact us
@@ -26,10 +17,7 @@ $(".modal").css("display","none")
 })
 
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 86e62e09bb3a75120a9aded134ba535e1d46219f
 
 $(".footerUp").click(function(){
   $('html, body').animate({ scrollTop: 0 });
@@ -46,5 +34,4 @@ $(".cancer").click(function(){
   $(".movieCancer").append("<div class=cancerDate>Release date : "+ date +"</div>");
   $(".movieCancer").append("<div class=cancerGenre>Genre : "+ genre +"</div>");
 
-})
 })
